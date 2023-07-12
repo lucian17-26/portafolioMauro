@@ -76,26 +76,15 @@ font-family: 'Oswald', sans-serif;
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-
-
-
-
-
-
-
-.contenedor-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
 .parallax {
     width: 100%;
     background: url("../imagenes/parallax.jpg") fixed;
     /* max-height: 100%; */
-    height: 70vh;
+    height: 80vh;
     position: relative;
     background-size: cover;
     object-fit: cover;
@@ -103,6 +92,45 @@ font-family: 'Oswald', sans-serif;
     background-attachment: fixed;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.presentacion-imagen{
+    width: 100%;
+    display: flex;
+}
+
+.presentacion-imagen .contenido-sobremi{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    /* border-bottom: 1px black solid; */
+}
+
+.presentacion-imagen .contenedor-imagen{
+    width: 50%;
+    height: 400px;
+}
+
+.presentacion-imagen .contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .card {
     width: 230px;
@@ -126,3 +154,5 @@ font-family: 'Oswald', sans-serif;
     box-shadow: none;
 
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
