@@ -145,11 +145,27 @@ aside{
 }
 
 .proyectos h1{
-    /* font-family: 'Rubik Dirt', cursive; */
     font-family: 'Oswald', sans-serif;
     color: white;
-    background-color: black;
     font-size: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.proyectos h1::after, .proyectos h1::before{
+    content: "";
+    width: 120px;
+    height: 4px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+}
+
+.proyectos h1::after{
+    right: -130px;
+}
+.proyectos h1::before{
+    left: -130px;
 }
 
 .contenedor-cards {
@@ -159,8 +175,8 @@ aside{
 }
 
 .card {
-    width: 260px;
-    height: 260px;
+    width: 300px;
+    height: 300px;
     margin: 50px 40px;
     /* gap: 30px; */
 }
